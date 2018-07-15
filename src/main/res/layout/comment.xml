@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageid"
+            android:layout_width="100px"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/commentwords"
+            android:layout_width="wrap_content"
+            android:layout_height="130px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="TextView"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/foodimage1"
+            android:layout_width="130px"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="1px"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/foodimage2"
+            android:layout_width="130px"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="1px"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/foodimage3"
+            android:layout_width="130px"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="1px"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
